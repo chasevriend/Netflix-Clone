@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import Banner from './Banner';
 import "./HomeScreen.css";
 
 function HomeScreen() {
@@ -8,7 +9,7 @@ function HomeScreen() {
         {/* NavBar */}
         <Navbar />
         {/* Banner */}
-
+        <Banner />
         {/* Rows */}
     </div>
   )
